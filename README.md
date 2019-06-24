@@ -22,7 +22,7 @@
 * From the file explorer click on the newly created notebook
 * You should see an empty Jupytor Notebook now like on the screen below
 
-![amsl](Assets/amsl_001.jpg)
+![amsl](assets/amsl_001.jpg)
 
 ## Part 2 - Setup Azure Machine Learning Services
 
@@ -149,7 +149,7 @@ print(exp.name)
 * Download the '[train.py](https://aiiotworkshop.blob.core.windows.net/downloads/train.py)' and upload it to your Azure Notebook
 * Download the '[utils.py](https://aiiotworkshop.blob.core.windows.net/downloads/utils.py)' and upload it to your Azure Notebook 
 
-![amsl](Assets/amsl_002.jpg)
+![amsl](assets/amsl_002.jpg)
 
 * Run the code below to copy the scripts to a scriptfolder that will be used later on.
 
@@ -191,7 +191,7 @@ run = exp.submit(config=est)
 RunDetails(run).show()
 ``` 
 
-![amsl](Assets/amsl_003.jpg)
+![amsl](assets/amsl_003.jpg)
 
 ### 3.4 - Save the model
 
@@ -321,6 +321,6 @@ print(aci_service.scoring_uri)
 * Click on recognize
 * Wait for the result
 
-![amsl](Assets/amsl_004.jpg)
+![amsl](assets/amsl_004.jpg)
 
 * You can clean everything up in your subscription by deleting the resource group.
