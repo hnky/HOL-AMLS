@@ -323,4 +323,4 @@ print(aci_service.scoring_uri)
 
 ![amsl](assets/amsl_004.jpg)
 
-* You can clean everything up in your subscription by deleting the resource group.
+*You can clean everything up in your subscription by deleting the resource group.*
