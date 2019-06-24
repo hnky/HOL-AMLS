@@ -1,6 +1,6 @@
 # Azure Machine Learning Service
 
-**In this HOL your are going to use Azure Machine Learning Service and Azure Notebooks to create a MNIST model and run in in a container in Azure**
+**In this HOL you are going to use Azure Machine Learning Service and Azure Notebooks to create a MNIST model and run in in a container in Azure**
 
 ### Requirements 
 - Azure Subscription
@@ -176,7 +176,8 @@ est = TensorFlow(source_directory=script_folder,
                  script_params=script_params,
                  compute_target=computeCluster,
                  entry_script='train.py', 
-                 use_gpu=True)
+                 use_gpu=True,
+                 framework_version="1.10")
 ```
 
 ### 3.3 - Run the Experiment
@@ -321,3 +322,5 @@ print(aci_service.scoring_uri)
 * Wait for the result
 
 ![amsl](Assets/amsl_004.jpg)
+
+* You can clean everything up in your subscription by deleting the resource group.
