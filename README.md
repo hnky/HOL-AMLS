@@ -8,7 +8,7 @@
 ## Part 1 - Setup Azure Notebooks
 
 ### 1.1 - Create the Azure Notebook Environment
-* Goto: [notebooks.azure.com](https://notebooks.azure.com/)
+* Goto: [notebooks.azure.com](https://notebooks.azure.com/?WT.mc_id=aiml-0000-heboelma)
 * Login with your Microsoft Passport.
 * Click on 'MY PROJECTS'
 * Click on 'New Project'
